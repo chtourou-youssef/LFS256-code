@@ -7,6 +7,6 @@ spec:
   selector:
     app: argocd-example-app
   ports:
-    - port: 5000
-      targetPort: 5000
-      nodePort: 31000 # Optional: Kubernetes will choose a port if this is omitted
+    - port: 8886
+      targetPort: 8886
+      #nodePort: 31000 # Optional: Kubernetes will choose a port if this is omitted
